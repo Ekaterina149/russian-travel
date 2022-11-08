@@ -1,9 +1,36 @@
 .lead {
-  padding: calc(136px - 52px - 28px) 148px 0;
+  padding: 48px 148px 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 
+
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding: 48px 48px 0;
+
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 48px 0 0;
+
+
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    padding: 48px 0 0;
+
+
+  }
 
 }
