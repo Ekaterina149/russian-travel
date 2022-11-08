@@ -1,4 +1,29 @@
 .place_height_carelia {
   min-height: 584px;
-  padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place_height_carelia {
+    min-height: 564px;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .place_height_carelia {
+    min-height: 484px;
+
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place_height_carelia {
+   
+
+  }
+
+}
+
+

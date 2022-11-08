@@ -11,3 +11,27 @@
 .place__paragraph:first-child {
   padding-bottom: 26px;
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    min-width: 352px;
+  }
+  .place__paragraph:first-child {
+    padding-bottom: 25px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    min-width: 288px;
+    max-width: 288px;
+    padding-left: 16px;
+
+  }
+
+}

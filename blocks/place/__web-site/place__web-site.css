@@ -2,3 +2,13 @@
   align-self: end;
   justify-self: start;
 }
+
+
+@media screen and (max-width: 320px) {
+  .place__web-site {
+    min-width: 288px;
+    max-height: 46px;
+    padding-left: 16px;
+
+  }
+}
