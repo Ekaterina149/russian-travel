@@ -2,10 +2,26 @@
   min-height: 52px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 18px;
   background: url('../../images/header__logo.svg') no-repeat;
   background-size: 176px 52px;
   background-position: top 28px left 48px;
   padding: 28px 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 0;
+    background-position: top 28px left 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 0;
+    background-position: top 16px left 16px;
+    background-size: 142px 42px;
+
+  }
 }

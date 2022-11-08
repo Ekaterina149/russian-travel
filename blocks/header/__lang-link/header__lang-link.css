@@ -6,6 +6,15 @@
   line-height: 28px;
   text-decoration: none;
   text-align: right;
+  padding-top: calc(46px - 28px);
 
 
+}
+
+@media screen and (max-width: 320px) {
+.header__lang-link {
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: calc(30px - 16px);
+}
 }
