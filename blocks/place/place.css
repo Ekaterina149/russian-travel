@@ -2,11 +2,13 @@
   margin: 0;
   padding-bottom: 80px;
   display: grid;
-  grid-template-columns: fit-content(460px) minmax(min-content, max-content);
-  grid-template-rows: auto auto;
+  grid-template-columns: 460px minmax(min-content, max-content);
+  grid-template-rows: min-content;
   column-gap: 40px;
   row-gap: 48px;
   min-height: 660px;
+  /* justify-items: center; */
+
 }
 
 .place:last-child {
@@ -15,7 +17,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: fit-content(440px) minmax(min-content, max-content);
+    grid-template-columns: 440px minmax(min-content, max-content);
     column-gap: 32px;
     min-height: 640px;
 
@@ -25,10 +27,25 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: fit-content(340px) minmax(min-content, max-content);
+    grid-template-columns: 340px minmax(min-content, max-content);
+    grid-template-rows: 46px auto;
     column-gap: 28px;
     min-height: 581px;
     padding-bottom: 73px;
+
+
+  }
+
+}
+
+@media screen and (max-width: 585px) {
+  .place {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: 35px 46px auto auto;
+    column-gap: 0;
+    row-gap: 32px;
+    padding-bottom: 50px;
+
 
   }
 
@@ -38,10 +55,11 @@
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 320px;
+    grid-template-rows: 35px 46px auto auto;
     column-gap: 0;
     row-gap: 32px;
     padding-bottom: 50px;
-    
+
 
   }
 
