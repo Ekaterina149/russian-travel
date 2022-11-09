@@ -2,6 +2,25 @@
   padding: 0 48px 24px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  /* flex-wrap: wrap; */
+
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
+
+}
+
+@media screen and (max-width: 727px) {
+  .footer {
+    padding-left: 16px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+  }
 
 }
