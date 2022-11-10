@@ -9,6 +9,7 @@
   color: #FFFFFF;
   align-self: flex-start;
   margin: 0;
+  padding-top: 8px;
 }
 
 @media screen and (max-width: 768px) {
