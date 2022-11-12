@@ -1,4 +1,5 @@
 .header__lang-link {
+  justify-self: ;
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
@@ -9,6 +10,11 @@
   padding-top: calc(46px - 28px);
 
 
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
 }
 
 @media screen and (max-width: 320px) {
