@@ -11,7 +11,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   /* Делаем липкий футер задаем минимальную область веб-страницы - весь экран, задаем возможность
-  управления поведением блоками content и footer через   */
+  управления поведением блоками content и footer через flex box   */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
