@@ -5,7 +5,6 @@
   row-gap: 24px;
   column-gap: 30px;
   flex-wrap: wrap;
-  justify-content: space-between;
   /* Футер, не сжимайся */
   flex-shrink: 0;
 

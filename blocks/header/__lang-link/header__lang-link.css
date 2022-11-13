@@ -1,5 +1,6 @@
 .header__lang-link {
-  justify-self: ;
+  justify-self: end;
+  align-self: end;
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
