@@ -1,18 +1,20 @@
 .footer {
-  padding: 0 48px 24px;
+  padding: 92px 48px 24px;
   display: flex;
   justify-content: space-between;
   row-gap: 24px;
   column-gap: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* Футер, не сжимайся */
+  flex-shrink: 0;
 
 
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 0 24px 24px;
+    padding: 88px 24px 24px;
     row-gap: 48px;
 
   }
@@ -21,7 +23,7 @@
 
 @media screen and (max-width: 492px) {
   .footer {
-    padding-left: 16px;
+    padding: 64px 16px 24px;
     flex-direction: column;
   }
 
