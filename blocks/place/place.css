@@ -38,7 +38,6 @@
 @media screen and (max-width: 615px) {
   .place {
     grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: 35px min-content min-content;
     column-gap: 0;
     row-gap: 32px;
     padding-bottom: 50px;
